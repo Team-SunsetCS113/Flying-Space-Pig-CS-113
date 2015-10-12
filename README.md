@@ -8,3 +8,13 @@ Flying Space Pig v0.1
 - Added Interstellar background music.
 - Added temporary asteroid.
 - Physics/Rigidbody is enabled between player and asteroid.
+
+
+In order to build the project into standalone, follow the steps below.
+
+- Open Fying Space Pig Project
+- Under 'File' tab on the top left corner of the screen, press 'Build Settings'
+- Choose PC, Mac & Linux Standalone
+- Choose your target platform and press build.
+- Executable file will be created on the project folder.
+- Run executable file.
