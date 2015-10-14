@@ -1,5 +1,7 @@
 # Flying-Space-Pig-CS-113
 
+For similar tutorial of this project, visit: https://unity3d.com/learn/tutorials/projects/space-shooter-tutorial
+
 Flying Space Pig v0.1
 
 - Added static space background.
