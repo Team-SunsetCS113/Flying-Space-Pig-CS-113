@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour {
 
 	public float speed;
 	public float xMin, xMax, yMin, yMax;
+    public int health = 100;
 
 	void FixedUpdate()
 	{
