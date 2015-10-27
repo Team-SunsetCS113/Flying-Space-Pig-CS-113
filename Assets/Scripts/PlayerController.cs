@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		float moveHorizontal = Input.GetAxis ("Horizontal");
-		float moveVertical = Input.GetAxis ("Vertical");
+        float moveHorizontal = 0;// Input.GetAxis ("Horizontal");
+		float moveVertical = Input.GetAxis ("Vertical") * 5;
 
 		Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
 		GetComponent<Rigidbody2D>().velocity = movement*speed;
