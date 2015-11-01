@@ -11,7 +11,7 @@ namespace Assets.Scripts
     {
         void FixedUpdate()
         {
-            Vector2 movement = new Vector2(10, 10);
+            Vector2 movement = new Vector2(0, 0);
             GetComponent<Rigidbody2D>().velocity = movement;
 
             GetComponent<Rigidbody2D>().position = new Vector2
